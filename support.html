@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tennis Strings — Support</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.7; color: #1a1a2e; background: #f8f9fa; }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 24px; }
+        .lang-switch { text-align: right; margin-bottom: 24px; }
+        .lang-switch a { color: #4CAF50; text-decoration: none; font-size: 14px; }
+        h1 { font-size: 28px; margin-bottom: 8px; color: #1a1a2e; }
+        .subtitle { color: #6c757d; margin-bottom: 32px; font-size: 14px; }
+        h2 { font-size: 20px; margin-top: 32px; margin-bottom: 12px; color: #1a1a2e; border-bottom: 2px solid #4CAF50; padding-bottom: 4px; display: inline-block; }
+        p, li { margin-bottom: 8px; color: #495057; }
+        ul { padding-left: 24px; }
+        a { color: #4CAF50; }
+        .contact-box { background: #e8f5e9; border: 1px solid #a5d6a7; border-radius: 8px; padding: 20px; margin: 24px 0; }
+        .contact-box p { margin-bottom: 6px; }
+        .faq-item { background: #ffffff; border: 1px solid #dee2e6; border-radius: 8px; padding: 16px 20px; margin: 12px 0; }
+        .faq-item strong { color: #1a1a2e; display: block; margin-bottom: 6px; }
+        .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 13px; }
+        .es, .en, .fr { display: none; }
+        .es { display: block; }
+    </style>
+    <script>
+        function switchLang(lang) {
+            document.querySelectorAll('.es,.en,.fr').forEach(el => el.style.display = 'none');
+            document.querySelectorAll('.' + lang).forEach(el => el.style.display = 'block');
+            document.documentElement.lang = lang;
+        }
+    </script>
+</head>
+<body>
+<div class="container">
+    <div class="lang-switch">
+        <a href="#" onclick="switchLang('es'); return false;">Espa&ntilde;ol</a> |
+        <a href="#" onclick="switchLang('en'); return false;">English</a> |
+        <a href="#" onclick="switchLang('fr'); return false;">Fran&ccedil;ais</a>
+    </div>
+
+    <!-- ESPAÑOL -->
+    <div class="es">
+        <h1>Soporte &mdash; Tennis Strings</h1>
+        <p class="subtitle">Estamos aqu&iacute; para ayudarte</p>
+
+        <h2>Contacto</h2>
+        <div class="contact-box">
+            <p><strong>Email:</strong> <a href="mailto:jonathandevapps@gmail.com">jonathandevapps@gmail.com</a></p>
+            <p>Responderemos a tu consulta en un plazo m&aacute;ximo de 48 horas.</p>
+        </div>
+
+        <h2>Preguntas frecuentes</h2>
+
+        <div class="faq-item">
+            <strong>&iquest;Necesito crear una cuenta para usar la app?</strong>
+            No. Puedes consultar recomendaciones de cordaje, tipos de cuerdas, consejos de cuidado e informaci&oacute;n de jugadores profesionales sin iniciar sesi&oacute;n. La cuenta solo es necesaria para el seguimiento de encordados y la gesti&oacute;n de raquetas.
+        </div>
+
+        <div class="faq-item">
+            <strong>&iquest;C&oacute;mo funciona el sistema de recomendaciones?</strong>
+            El sistema te gu&iacute;a a trav&eacute;s de preguntas sobre tu nivel, estilo de juego y preferencias. Con esa informaci&oacute;n, analiza una base de datos de cordajes y te ofrece recomendaciones personalizadas con explicaciones detalladas.
+        </div>
+
+        <div class="faq-item">
+            <strong>&iquest;Puedo gestionar varias raquetas?</strong>
+            S&iacute;. Puedes a&ntilde;adir todas tus raquetas con sus especificaciones (marca, modelo, peso, tama&ntilde;o de cabeza, patr&oacute;n de encordado) y hacer seguimiento individual de los encordados de cada una.
+        </div>
+
+        <div class="faq-item">
+            <strong>&iquest;C&oacute;mo elimino mi cuenta?</strong>
+            Abre el men&uacute; lateral, pulsa el icono de usuario y selecciona "Eliminar cuenta". Tambi&eacute;n puedes solicitarlo por email. M&aacute;s informaci&oacute;n en nuestra <a href="delete-account.html">p&aacute;gina de eliminaci&oacute;n de cuenta</a>.
+        </div>
+
+        <div class="faq-item">
+            <strong>&iquest;La app est&aacute; disponible en varios idiomas?</strong>
+            S&iacute;. Tennis Strings est&aacute; disponible en espa&ntilde;ol, ingl&eacute;s y franc&eacute;s. El idioma se ajusta autom&aacute;ticamente seg&uacute;n la configuraci&oacute;n de tu dispositivo.
+        </div>
+
+        <div class="faq-item">
+            <strong>&iquest;Mis datos est&aacute;n seguros?</strong>
+            S&iacute;. Utilizamos Firebase de Google con cifrado HTTPS y reglas de seguridad que garantizan que solo t&uacute; puedes acceder a tus datos. Consulta nuestra <a href="privacy.html">pol&iacute;tica de privacidad</a> para m&aacute;s detalles.
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 JJR Dev Apps. Todos los derechos reservados.</p>
+            <p><a href="privacy.html">Pol&iacute;tica de Privacidad</a> | <a href="terms.html">T&eacute;rminos de Servicio</a> | <a href="delete-account.html">Eliminar cuenta</a></p>
+        </div>
+    </div>
+
+    <!-- ENGLISH -->
+    <div class="en">
+        <h1>Support &mdash; Tennis Strings</h1>
+        <p class="subtitle">We're here to help</p>
+
+        <h2>Contact</h2>
+        <div class="contact-box">
+            <p><strong>Email:</strong> <a href="mailto:jonathandevapps@gmail.com">jonathandevapps@gmail.com</a></p>
+            <p>We will respond to your inquiry within 48 hours.</p>
+        </div>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <strong>Do I need an account to use the app?</strong>
+            No. You can browse string recommendations, string types, care tips, and professional player information without signing in. An account is only needed for string tracking and racquet management.
+        </div>
+
+        <div class="faq-item">
+            <strong>How does the recommendation system work?</strong>
+            The system guides you through questions about your level, playing style, and preferences. Using that information, it analyzes a string database and provides personalized recommendations with detailed explanations.
+        </div>
+
+        <div class="faq-item">
+            <strong>Can I manage multiple racquets?</strong>
+            Yes. You can add all your racquets with their specifications (brand, model, weight, head size, string pattern) and track string installations individually for each one.
+        </div>
+
+        <div class="faq-item">
+            <strong>How do I delete my account?</strong>
+            Open the side menu, tap the user icon, and select "Delete account". You can also request it via email. More information on our <a href="delete-account.html">account deletion page</a>.
+        </div>
+
+        <div class="faq-item">
+            <strong>Is the app available in multiple languages?</strong>
+            Yes. Tennis Strings is available in Spanish, English, and French. The language adjusts automatically based on your device settings.
+        </div>
+
+        <div class="faq-item">
+            <strong>Is my data secure?</strong>
+            Yes. We use Google's Firebase with HTTPS encryption and security rules that ensure only you can access your data. See our <a href="privacy.html">privacy policy</a> for more details.
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 JJR Dev Apps. All rights reserved.</p>
+            <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a> | <a href="delete-account.html">Delete account</a></p>
+        </div>
+    </div>
+
+    <!-- FRANÇAIS -->
+    <div class="fr">
+        <h1>Support &mdash; Tennis Strings</h1>
+        <p class="subtitle">Nous sommes l&agrave; pour vous aider</p>
+
+        <h2>Contact</h2>
+        <div class="contact-box">
+            <p><strong>Email :</strong> <a href="mailto:jonathandevapps@gmail.com">jonathandevapps@gmail.com</a></p>
+            <p>Nous r&eacute;pondrons &agrave; votre demande dans un d&eacute;lai de 48 heures.</p>
+        </div>
+
+        <h2>Questions fr&eacute;quentes</h2>
+
+        <div class="faq-item">
+            <strong>Ai-je besoin d'un compte pour utiliser l'app ?</strong>
+            Non. Vous pouvez consulter les recommandations de cordage, les types de cordes, les conseils d'entretien et les informations sur les joueurs professionnels sans vous connecter. Un compte est uniquement n&eacute;cessaire pour le suivi des cordages et la gestion des raquettes.
+        </div>
+
+        <div class="faq-item">
+            <strong>Comment fonctionne le syst&egrave;me de recommandations ?</strong>
+            Le syst&egrave;me vous guide &agrave; travers des questions sur votre niveau, votre style de jeu et vos pr&eacute;f&eacute;rences. &Agrave; partir de ces informations, il analyse une base de donn&eacute;es de cordages et vous propose des recommandations personnalis&eacute;es avec des explications d&eacute;taill&eacute;es.
+        </div>
+
+        <div class="faq-item">
+            <strong>Puis-je g&eacute;rer plusieurs raquettes ?</strong>
+            Oui. Vous pouvez ajouter toutes vos raquettes avec leurs sp&eacute;cifications (marque, mod&egrave;le, poids, taille de t&ecirc;te, plan de cordage) et suivre les cordages individuellement pour chacune.
+        </div>
+
+        <div class="faq-item">
+            <strong>Comment supprimer mon compte ?</strong>
+            Ouvrez le menu lat&eacute;ral, appuyez sur l'ic&ocirc;ne utilisateur et s&eacute;lectionnez &laquo; Supprimer le compte &raquo;. Vous pouvez &eacute;galement le demander par email. Plus d'informations sur notre <a href="delete-account.html">page de suppression de compte</a>.
+        </div>
+
+        <div class="faq-item">
+            <strong>L'app est-elle disponible en plusieurs langues ?</strong>
+            Oui. Tennis Strings est disponible en espagnol, anglais et fran&ccedil;ais. La langue s'ajuste automatiquement selon les param&egrave;tres de votre appareil.
+        </div>
+
+        <div class="faq-item">
+            <strong>Mes donn&eacute;es sont-elles s&eacute;curis&eacute;es ?</strong>
+            Oui. Nous utilisons Firebase de Google avec un chiffrement HTTPS et des r&egrave;gles de s&eacute;curit&eacute; qui garantissent que vous seul pouvez acc&eacute;der &agrave; vos donn&eacute;es. Consultez notre <a href="privacy.html">politique de confidentialit&eacute;</a> pour plus de d&eacute;tails.
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 JJR Dev Apps. Tous droits r&eacute;serv&eacute;s.</p>
+            <p><a href="privacy.html">Politique de Confidentialit&eacute;</a> | <a href="terms.html">Conditions d'Utilisation</a> | <a href="delete-account.html">Supprimer le compte</a></p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
